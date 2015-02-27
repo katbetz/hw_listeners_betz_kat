@@ -1,0 +1,33 @@
+body{
+    background-color:powderblue;
+}
+
+.container{
+    margin:0 auto;
+    width:70%;
+}
+
+label{
+    display:block;
+}
+
+input, textarea{
+    width:15%;
+    display:block;
+}
+
+form{
+    color:rebeccapurple ;
+}
+
+input[type="submit"]{
+    background-color:slategray;
+    color:#fff;
+    margin-top:5px;
+    border:4px skyblue ridge;
+}
+
+input[type="submit"]:hover{
+    background-color:rebeccapurple;
+    border:4px midnightblue groove;
+}
